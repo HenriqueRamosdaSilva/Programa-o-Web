@@ -1,12 +1,11 @@
 body {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #8aaef5;
     margin: 0;
     padding: 0;
 }
 .card {
-    background-color: #f06464;
-    color: #ffffff;
+    background-color: #ffffff;
     width: 450px;
     padding: 20px;
     margin: 60px auto;
@@ -24,7 +23,7 @@ ul {
 }
 .destaque {
     font-weight: bold;
-    color: #000000;
+    color: #1d4ed8;
 }
 
 .botao {
