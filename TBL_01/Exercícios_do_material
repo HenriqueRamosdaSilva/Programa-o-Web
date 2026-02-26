@@ -1,0 +1,16 @@
+a) Qual a diferença entre selecionar por tag, por classe e por id? 
+A Tag mudo todas as tags por exemplo se mudar um h1 color = blue  muda todos os h1 pra azul, 
+já a class ela muda apenas os elementos com o nome daquela class por exemplo cria a class botão tudo que estiver a class botão muda, 
+já o id ele muda um unico elemento da pagina
+
+b) Quando é mais adequado usar classe em vez de id? 
+em quase todos os momentos, pois vc pode reutilizar as classes como por exemplo o botão se tem 10 botões do mesmo estilo vc cria uma class pra eles, só deve usar id para elementos 
+que temos certeza que são unicos.
+
+c) O que acontece se dois elementos tiverem o mesmo id? 
+a pagina pode retorna apenas o primeiros elemento ignorando o segundo causando bugs e 
+o html pode ser invalido e não passará em validações oficiais
+Explique Diferença de : 
+a) Margin: esse e o espaço fora da borda, ele afasta uma coisa das outras ao redor
+b) Padding: esse e o espaço de dentro da borda ele serve para os textos e etc não ficarem escostados por exemplo na porda de um cartão como no exercicio 2 se não tivese 
+um padding isso teria acontecido
