@@ -1,0 +1,65 @@
+Parte 2 - Realizada em dupla, discutir e responder 
+  Bloco 1 – Estrutura e Organização 
+    1. Vocês usaram as mesmas classes para estruturar o cartão? 
+    Se não, quais foram as diferenças?
+      Sim, utilizamos CARTÃO , DESTAQUE e BOTÃO
+    2. Algum de vocês usou mais classes do que o outro? 
+    Por quê? 
+      Sim, o igor usou uma classe a mais a class menu, porque ele agrupou o exercício 1 e 2
+      
+    3. A organização do HTML ficou parecida ou diferente? 
+    O que cada um fez de forma distinta? 
+      Ficaaram parecida, porem apenas a parte do exercício 2 que e a que estamos comparando, pois o igor juntou o 1 e 2 num arquivo só
+
+    4. Alguém utilizou id para estilização? 
+    Se sim, por que escolheu essa abordagem? 
+      Não.
+
+  Bloco 2 – Decisões de Layout 
+    5. Como cada um centralizou o cartão? 
+    Qual técnica foi usada? 
+      Todos nós utilizamos margin 40px auto
+      
+    6. Alguém teve dificuldade para centralizar? 
+    O que precisou ajustar? 
+      Não
+    7. Onde cada um utilizou margin e onde utilizou padding? 
+    Houve diferença nas decisões? 
+      padding igor = Cartão, h1, section, ul, botão
+      padding marcelo = botão, cartão.
+      padding henrique = botão, ul, cartão, bory.
+      margin igor = Cartão, menu, section, h1, bory, botão
+      margin marcelo = botão, cartão, ul, h1.
+      margin henrique = botão, h2, cartão, bory.
+
+    8. Se remover o padding do cartão, o que acontece visualmente? 
+    Ambos concordam? 
+      Ele remove a margin interna do cartão e os textos colam na borda.Sim todos concordamos
+
+    Bloco 3 – Hierarquia Visual 
+    9. Como cada um destacou o botão? 
+      Todos nos utilizamos a class botão para personaliza-lo e deixamos o texto branco com o fundo azul.
+
+    10. A classe “destaque” foi aplicada da mesma forma? 
+    Se não, por que cada um fez diferente? 
+      Todos nos aplicamos o destaque em um menbro da lista e mudamos o nome dele.
+    11. O título principal recebeu algum tratamento especial? 
+    Qual foi a intenção da escolha? 
+      Sim, o igor e o marcelo destacaram ele e mudaram a fonte
+
+    Bloco 4 – Reflexão Técnica 
+    12. Qual solução ficou mais organizada? 
+    Justifiquem tecnicamente. 
+      Todas estão visualmente e estruturalmente organizadas.
+    13. Se precisassem adicionar outro cartão na página, qual das 
+    duas soluções seria mais fácil de reutilizar? Por quê? 
+      Qualquer uma pois são similares.
+    14. Qual erro ou dificuldade cada um encontrou individualmente? 
+      Relembra de como são as escritas em css.
+      a do marcelo foi utilizar o whiti
+    15. Após comparar os dois códigos, o que você faria diferente se 
+    fosse começar de novo? 
+      Mecheria no botão e faria um planejamento com mas calma de onde iria querer que tudo ficase
+    16. Escrevam uma melhoria que decidiram aplicar após a 
+    conversa. 
+      mudei a cor de fundo e a cor do texto pois vi que tava errado com oque foi pedido
