@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 768px){
+
+    .menu{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-auto-flow: column;
+        gap: 5px;
+    }
+}
