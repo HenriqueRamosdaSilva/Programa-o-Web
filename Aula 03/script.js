@@ -40,5 +40,9 @@ const Texto = document.getElementById("Texto");
 
 Ocultar.addEventListener("click",Ocultar_Texto );
 function Ocultar_Texto() {
-    elemento.style.display = "Texto"; 
-}
+    if (Texto.style.display === "none") {
+        Texto.style.display = "block";
+      } else {
+        Texto.style.display = "none";
+      }
+    }
