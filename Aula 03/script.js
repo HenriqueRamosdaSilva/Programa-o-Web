@@ -46,3 +46,20 @@ function Ocultar_Texto() {
         Texto.style.display = "none";
       }
     }
+
+
+const botaoTema = document.getElementById("alternarTema");
+
+botaoTema.onclick = function() {
+    if (document.body.style.backgroundColor === "" || document.body.style.backgroundColor === "white") {
+        // Modo Escuro
+        document.body.style.backgroundColor = "#222222";
+        document.body.style.color = "white";
+        botaoTema.innerText = "Mudar para Modo Claro";
+    } else {
+        // Modo Claro
+        document.body.style.backgroundColor = "white";
+        document.body.style.color = "black";
+        botaoTema.innerText = "Mudar para Modo Escuro";
+    }
+};
