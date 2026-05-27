@@ -1,0 +1,27 @@
+<app-header></app-header>
+
+<div class="container">
+  
+  <div class="controles">
+    <button (click)="alternarVisibilidade()">
+      {{ exibirProdutos ? 'Esconder Produtos' : 'Mostrar Produtos' }}
+    </button>
+    
+    <input 
+      type="text" 
+      placeholder="Digite para buscar..." 
+      [(ngModel)]="termoBusca"
+      *ngIf="exibirProdutos"
+    />
+  </div>
+
+  <div class="catalogo" *ngIf="exibirProdutos">
+    <div class="card-produto" *ngFor="let prod of produtosFiltrados">
+      <h2>{{ prod.nome }}</h2>
+      <p>Preço: R$ {{ prod.preco.toFixed(2) }}</p>
+    </div>
+
+    <p *ngIf="produtosFiltrados.length === 0">Nenhum produto encontrado.</p>
+  </div>
+
+</div>

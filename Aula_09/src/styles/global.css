@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Exercício 1 */
+.card-curso {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Transição para o desafio extra */
+}
+
+.card-curso:hover {
+  transform: scale(1.05); /* Desafio extra: aumenta levemente */
+}
+
+.card-curso button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+/* Exercícios 2, 3, 4 e 5 */
+.product-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra obrigatória */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição */
+  text-align: center;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Desafio extra: card sobe levemente */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h2 {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.product-card p {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.product-card button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.product-card button:hover {
+  background-color: #000;
+}
+
+/* Exercício 5 */
+.main-header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.catalogo-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
